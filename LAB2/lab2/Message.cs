@@ -9,8 +9,7 @@ namespace lab2
         protected string receiverNumber;
         protected string text;
 
-        public Message()
-            : base()
+        public Message() 
         {
             senderNumber = "+380000000000";
             receiverNumber = "+380000000000";
@@ -18,7 +17,6 @@ namespace lab2
         }
 
         public Message(string sNum, string rNum, string txt)
-            : base()
         {
             senderNumber = sNum;
             receiverNumber = rNum;
